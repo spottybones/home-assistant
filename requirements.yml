@@ -1,0 +1,8 @@
+---
+roles:
+  - name: ryandaniels.server_update_reboot
+    version: v1.0.2
+  - name: spottybones.homeassistant-server
+    src: git@github.com:spottybones/ansible-role-homeassistant-server.git
+    scm: git
+    version: main

@@ -1,0 +1,4 @@
+---
+sysadmin: scott@lentigo.net
+ansible_python_interpreter: /usr/bin/python3
+proxy_env: []

@@ -1,0 +1,4 @@
+---
+homeassistant_image: homeassistant/raspberrypi4-64-homeassistant:stable
+mosquitto_image: eclipse-mosquitto:2.0.4
+host_timezone: America/New_York

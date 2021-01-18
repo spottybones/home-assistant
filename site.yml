@@ -1,0 +1,15 @@
+---
+- name: Configure a HomeAssistant Server
+  hosts: "{{ targets }}"
+  tasks:
+    - name: Import the home-assistant Role
+      import_role:
+        name: spottybones.homeassistant-server
+      tags: config
+    - name: Import the ryandaniels.server_update_reboot Role
+      become: true
+      import_role:
+        name: ryandaniels.server_update_reboot
+      tags:
+        - never
+        - sysadmin
