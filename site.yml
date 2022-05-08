@@ -1,6 +1,6 @@
 ---
 - name: Configure a HomeAssistant Server
-  hosts: "{{ targets }}"
+  hosts: all
   tasks:
     - name: Import the home-assistant Role
       import_role:

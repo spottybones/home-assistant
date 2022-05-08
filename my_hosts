@@ -1,13 +1,2 @@
 ; vim: ft=cfg
-# RasPis
-[raspi_hosts]
-ha          ansible_user=pi         ansible_host=192.168.42.72  host_timezone="America/New_York"
-
-# Ubuntu Hosts
-[ubuntu_hosts]
-hadev       ansible_user=ubuntu     ansible_host=192.168.64.11  host_timezone="America/New_York"
-
-# for host running HomeAssistant
-[ha_hosts]
-ha
-hadev
+ha          ansible_user=pi         ansible_host=ha.bw.lentigo.net  host_timezone="America/New_York"
